@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+{% block title %} {% endblock %}
+{% block background %} {% load static %} {% static 'core/img/about-bg.jpg' %} {% endblock %}
+{% block headers %}
+
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Joaquín Bonet</h2>
+        <p>Me encuentro actualmente en búsqueda de una oportunidad donde desarrollarme como desarrollador en una empresa o
+            institución, ampliando lo que ha sido, hasta ahora, mi formación particular. Manejo las siguientes
+            tecnologías: HTML5, CSS3, Bootstrap, JavaScript, React JS, SQL, Java y Python con Django. Estoy en una
+            búsqueda constante de aprendizaje y debido a mi experiencia en la docencia, disfruto de recibir y transmitir
+            conocimientos y comunicarme de la manera más clara y pedagógica posible. </p>
+
+    </div>
+</div>
+{%endblock%}
